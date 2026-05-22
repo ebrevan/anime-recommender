@@ -7,8 +7,8 @@ A small CLI chatbot that recommends anime series based on your mood / likes, pow
 ```bash
 source venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env
-# then edit .env and paste your Anthropic API key
+echo 'ANTHROPIC_API_KEY=your_key_here' > .env
+# then edit .env and paste your real Anthropic API key
 ```
 
 ## Run
